@@ -1,0 +1,1254 @@
+# Created at 2023-04-14T23:21:17.746
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+# Created at 2023-04-14T23:21:26.609
+Unexpected IOException: 8,1,org.lastfm.project.LastFm,setupDriver(org.lastfm.project.LastFm),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: MicrosoftEdge=112.0.1722.46)\000ABuild info: version: '4.8.2'\002C revision: '826dbfc730'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [f9939e433f00b59f73c45d4176d1c65e\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 112.0.1722.46\002C ms:edgeOptions: {debuggerAddress: localhost:53094}\002C msedge: {msedgedriverVersion: 112.0.1722.46 (df0b18e7674e...\002C userDataDir: C:\005CUsers\005Cdevam\005CAppData\005CLoca...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53094/devtoo...\002C se:cdpVersion: 112.0.1722.46\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f9939e433f00b59f73c45d4176d1c65e,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: MicrosoftEdge=112.0.1722.46)\000ABuild info: version: '4.8.2'\002C revision: '826dbfc730'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [f9939e433f00b59f73c45d4176d1c65e\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 112.0.1722.46\002C ms:edgeOptions: {debuggerAddress: localhost:53094}\002C msedge: {msedgedriverVersion: 112.0.1722.46 (df0b18e7674e...\002C userDataDir: C:\005CUsers\005Cdevam\005CAppData\005CLoca...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53094/devtoo...\002C se:cdpVersion: 112.0.1722.46\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f9939e433f00b59f73c45d4176d1c65e,LastFm.setupDriver:38 \00BB NoSuchWindow no such window: target window already clo...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: MicrosoftEdge=112.0.1722.46)\000ABuild info: version: '4.8.2'\002C revision: '826dbfc730'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [f9939e433f00b59f73c45d4176d1c65e\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 112.0.1722.46\002C ms:edgeOptions: {debuggerAddress: localhost:53094}\002C msedge: {msedgedriverVersion: 112.0.1722.46 (df0b18e7674e...\002C userDataDir: C:\005CUsers\005Cdevam\005CAppData\005CLoca...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53094/devtoo...\002C se:cdpVersion: 112.0.1722.46\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f9939e433f00b59f73c45d4176d1c65e\000A\0009at org.lastfm.project.LastFm.setupDriver(LastFm.java:38)\000A
+
+
+# Created at 2023-04-14T23:21:26.646
+Unexpected IOException: 5,1,org.lastfm.project.LastFm,GmailPageLogin(org.lastfm.project.LastFm),org.lastfm.project.LastFm,null,null
+
+
+# Created at 2023-04-14T23:21:26.652
+Unexpected IOException: 9,1,org.lastfm.project.LastFm,GmailPageLogin(org.lastfm.project.LastFm),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: MicrosoftEdge=112.0.1722.46)\000ABuild info: version: '4.8.2'\002C revision: '826dbfc730'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [f9939e433f00b59f73c45d4176d1c65e\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 112.0.1722.46\002C ms:edgeOptions: {debuggerAddress: localhost:53094}\002C msedge: {msedgedriverVersion: 112.0.1722.46 (df0b18e7674e...\002C userDataDir: C:\005CUsers\005Cdevam\005CAppData\005CLoca...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53094/devtoo...\002C se:cdpVersion: 112.0.1722.46\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f9939e433f00b59f73c45d4176d1c65e,null
+
+
+# Created at 2023-04-14T23:21:26.673
+Unexpected IOException with stream: FAILED CONFIGURATION: @BeforeClass org.lastfm.project.LastFm.setupDriver("edge", "https://www.last.fm/")
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=112.0.1722.46)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f9939e433f00b59f73c45d4176d1c65e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 112.0.1722.46, ms:edgeOptions: {debuggerAddress: localhost:53094}, msedge: {msedgedriverVersion: 112.0.1722.46 (df0b18e7674e..., userDataDir: C:\Users\devam\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53094/devtoo..., se:cdpVersion: 112.0.1722.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9939e433f00b59f73c45d4176d1c65e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)
+	at org.lastfm.project.LastFm.setupDriver(LastFm.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+# Created at 2023-04-14T23:21:26.674
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:26.676
+Unexpected IOException with stream: SKIPPED: org.lastfm.project.LastFm.GmailPageLogin
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=112.0.1722.46)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f9939e433f00b59f73c45d4176d1c65e, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 112.0.1722.46, ms:edgeOptions: {debuggerAddress: localhost:53094}, msedge: {msedgedriverVersion: 112.0.1722.46 (df0b18e7674e..., userDataDir: C:\Users\devam\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53094/devtoo..., se:cdpVersion: 112.0.1722.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9939e433f00b59f73c45d4176d1c65e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)
+	at org.lastfm.project.LastFm.setupDriver(LastFm.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+# Created at 2023-04-14T23:21:26.677
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:26.682
+Unexpected IOException with stream: 
+===============================================
+    E:\Maven\LastFmTesting\.idea
+    Tests run: 1, Failures: 0, Skips: 1
+    Configuration Failures: 1, Skips: 0
+===============================================
+
+
+# Created at 2023-04-14T23:21:26.686
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:27.060
+Unexpected IOException with stream: S
+
+# Created at 2023-04-14T23:21:27.061
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.062
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.064
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.065
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.066
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.067
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.068
+Unexpected IOException with stream: g
+
+# Created at 2023-04-14T23:21:27.068
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.069
+Unexpected IOException with stream: C
+
+# Created at 2023-04-14T23:21:27.070
+Unexpected IOException with stream: h
+
+# Created at 2023-04-14T23:21:27.071
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.072
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.073
+Unexpected IOException with stream: m
+
+# Created at 2023-04-14T23:21:27.075
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.076
+Unexpected IOException with stream: D
+
+# Created at 2023-04-14T23:21:27.078
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.079
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.080
+Unexpected IOException with stream: v
+
+# Created at 2023-04-14T23:21:27.081
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.082
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.083
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.084
+Unexpected IOException with stream: 1
+
+# Created at 2023-04-14T23:21:27.085
+Unexpected IOException with stream: 1
+
+# Created at 2023-04-14T23:21:27.086
+Unexpected IOException with stream: 1
+
+# Created at 2023-04-14T23:21:27.087
+Unexpected IOException with stream: .
+
+# Created at 2023-04-14T23:21:27.088
+Unexpected IOException with stream: 0
+
+# Created at 2023-04-14T23:21:27.089
+Unexpected IOException with stream: .
+
+# Created at 2023-04-14T23:21:27.089
+Unexpected IOException with stream: 5
+
+# Created at 2023-04-14T23:21:27.090
+Unexpected IOException with stream: 5
+
+# Created at 2023-04-14T23:21:27.091
+Unexpected IOException with stream: 6
+
+# Created at 2023-04-14T23:21:27.092
+Unexpected IOException with stream: 3
+
+# Created at 2023-04-14T23:21:27.093
+Unexpected IOException with stream: .
+
+# Created at 2023-04-14T23:21:27.094
+Unexpected IOException with stream: 6
+
+# Created at 2023-04-14T23:21:27.095
+Unexpected IOException with stream: 4
+
+# Created at 2023-04-14T23:21:27.096
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.098
+Unexpected IOException with stream: (
+
+# Created at 2023-04-14T23:21:27.100
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.102
+Unexpected IOException with stream: 7
+
+# Created at 2023-04-14T23:21:27.102
+Unexpected IOException with stream: 1
+
+# Created at 2023-04-14T23:21:27.103
+Unexpected IOException with stream: 0
+
+# Created at 2023-04-14T23:21:27.104
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.105
+Unexpected IOException with stream: 9
+
+# Created at 2023-04-14T23:21:27.106
+Unexpected IOException with stream: 3
+
+# Created at 2023-04-14T23:21:27.106
+Unexpected IOException with stream: d
+
+# Created at 2023-04-14T23:21:27.107
+Unexpected IOException with stream: 5
+
+# Created at 2023-04-14T23:21:27.108
+Unexpected IOException with stream: b
+
+# Created at 2023-04-14T23:21:27.109
+Unexpected IOException with stream: 6
+
+# Created at 2023-04-14T23:21:27.110
+Unexpected IOException with stream: 3
+
+# Created at 2023-04-14T23:21:27.110
+Unexpected IOException with stream: b
+
+# Created at 2023-04-14T23:21:27.111
+Unexpected IOException with stream: 7
+
+# Created at 2023-04-14T23:21:27.113
+Unexpected IOException with stream: 0
+
+# Created at 2023-04-14T23:21:27.115
+Unexpected IOException with stream: 9
+
+# Created at 2023-04-14T23:21:27.116
+Unexpected IOException with stream: 5
+
+# Created at 2023-04-14T23:21:27.117
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.118
+Unexpected IOException with stream: f
+
+# Created at 2023-04-14T23:21:27.118
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.119
+Unexpected IOException with stream: 8
+
+# Created at 2023-04-14T23:21:27.120
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.120
+Unexpected IOException with stream: 2
+
+# Created at 2023-04-14T23:21:27.122
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.122
+Unexpected IOException with stream: 1
+
+# Created at 2023-04-14T23:21:27.123
+Unexpected IOException with stream: 7
+
+# Created at 2023-04-14T23:21:27.124
+Unexpected IOException with stream: d
+
+# Created at 2023-04-14T23:21:27.124
+Unexpected IOException with stream: f
+
+# Created at 2023-04-14T23:21:27.125
+Unexpected IOException with stream: 3
+
+# Created at 2023-04-14T23:21:27.126
+Unexpected IOException with stream: 4
+
+# Created at 2023-04-14T23:21:27.126
+Unexpected IOException with stream: 4
+
+# Created at 2023-04-14T23:21:27.127
+Unexpected IOException with stream: 0
+
+# Created at 2023-04-14T23:21:27.128
+Unexpected IOException with stream: 8
+
+# Created at 2023-04-14T23:21:27.129
+Unexpected IOException with stream: 0
+
+# Created at 2023-04-14T23:21:27.130
+Unexpected IOException with stream: 7
+
+# Created at 2023-04-14T23:21:27.131
+Unexpected IOException with stream: 8
+
+# Created at 2023-04-14T23:21:27.132
+Unexpected IOException with stream: 4
+
+# Created at 2023-04-14T23:21:27.133
+Unexpected IOException with stream: 3
+
+# Created at 2023-04-14T23:21:27.133
+Unexpected IOException with stream: 9
+
+# Created at 2023-04-14T23:21:27.134
+Unexpected IOException with stream: d
+
+# Created at 2023-04-14T23:21:27.134
+Unexpected IOException with stream: -
+
+# Created at 2023-04-14T23:21:27.135
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.136
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.137
+Unexpected IOException with stream: f
+
+# Created at 2023-04-14T23:21:27.137
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.138
+Unexpected IOException with stream: /
+
+# Created at 2023-04-14T23:21:27.138
+Unexpected IOException with stream: b
+
+# Created at 2023-04-14T23:21:27.139
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.140
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.140
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.141
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.142
+Unexpected IOException with stream: h
+
+# Created at 2023-04-14T23:21:27.143
+Unexpected IOException with stream: -
+
+# Created at 2023-04-14T23:21:27.146
+Unexpected IOException with stream: h
+
+# Created at 2023-04-14T23:21:27.146
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.147
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.148
+Unexpected IOException with stream: d
+
+# Created at 2023-04-14T23:21:27.149
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.149
+Unexpected IOException with stream: /
+
+# Created at 2023-04-14T23:21:27.150
+Unexpected IOException with stream: 5
+
+# Created at 2023-04-14T23:21:27.150
+Unexpected IOException with stream: 5
+
+# Created at 2023-04-14T23:21:27.155
+Unexpected IOException with stream: 6
+
+# Created at 2023-04-14T23:21:27.157
+Unexpected IOException with stream: 3
+
+# Created at 2023-04-14T23:21:27.158
+Unexpected IOException with stream: @
+
+# Created at 2023-04-14T23:21:27.160
+Unexpected IOException with stream: {
+
+# Created at 2023-04-14T23:21:27.160
+Unexpected IOException with stream: #
+
+# Created at 2023-04-14T23:21:27.161
+Unexpected IOException with stream: 9
+
+# Created at 2023-04-14T23:21:27.162
+Unexpected IOException with stream: 9
+
+# Created at 2023-04-14T23:21:27.164
+Unexpected IOException with stream: 5
+
+# Created at 2023-04-14T23:21:27.165
+Unexpected IOException with stream: }
+
+# Created at 2023-04-14T23:21:27.168
+Unexpected IOException with stream: )
+
+# Created at 2023-04-14T23:21:27.170
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.170
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.171
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.172
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.173
+Unexpected IOException with stream: p
+
+# Created at 2023-04-14T23:21:27.173
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.174
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.175
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.175
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.176
+Unexpected IOException with stream: 4
+
+# Created at 2023-04-14T23:21:27.177
+Unexpected IOException with stream: 6
+
+# Created at 2023-04-14T23:21:27.178
+Unexpected IOException with stream: 0
+
+# Created at 2023-04-14T23:21:27.180
+Unexpected IOException with stream: 9
+
+# Created at 2023-04-14T23:21:27.182
+Unexpected IOException with stream: 2
+
+# Created at 2023-04-14T23:21:27.185
+Unexpected IOException with stream: 
+
+# Created at 2023-04-14T23:21:27.186
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:27.187
+Unexpected IOException with stream: O
+
+# Created at 2023-04-14T23:21:27.188
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.189
+Unexpected IOException with stream: l
+
+# Created at 2023-04-14T23:21:27.190
+Unexpected IOException with stream: y
+
+# Created at 2023-04-14T23:21:27.191
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.195
+Unexpected IOException with stream: l
+
+# Created at 2023-04-14T23:21:27.196
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.197
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.199
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.200
+Unexpected IOException with stream: l
+
+# Created at 2023-04-14T23:21:27.200
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.203
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.205
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.206
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.206
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.206
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.207
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.207
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.208
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.209
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.209
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.210
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.210
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.211
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.211
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.212
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.213
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.213
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.214
+Unexpected IOException with stream: l
+
+# Created at 2023-04-14T23:21:27.216
+Unexpected IOException with stream: l
+
+# Created at 2023-04-14T23:21:27.217
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.218
+Unexpected IOException with stream: w
+
+# Created at 2023-04-14T23:21:27.219
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.219
+Unexpected IOException with stream: d
+
+# Created at 2023-04-14T23:21:27.219
+Unexpected IOException with stream: .
+
+# Created at 2023-04-14T23:21:27.220
+Unexpected IOException with stream: 
+
+# Created at 2023-04-14T23:21:27.220
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:27.220
+Unexpected IOException with stream: P
+
+# Created at 2023-04-14T23:21:27.221
+Unexpected IOException with stream: l
+
+# Created at 2023-04-14T23:21:27.222
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.222
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.222
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.223
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.223
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.224
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.224
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.225
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.225
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.226
+Unexpected IOException with stream: h
+
+# Created at 2023-04-14T23:21:27.227
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.227
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.228
+Unexpected IOException with stream: p
+
+# Created at 2023-04-14T23:21:27.228
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.229
+Unexpected IOException with stream: :
+
+# Created at 2023-04-14T23:21:27.229
+Unexpected IOException with stream: /
+
+# Created at 2023-04-14T23:21:27.230
+Unexpected IOException with stream: /
+
+# Created at 2023-04-14T23:21:27.231
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.234
+Unexpected IOException with stream: h
+
+# Created at 2023-04-14T23:21:27.235
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.236
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.236
+Unexpected IOException with stream: m
+
+# Created at 2023-04-14T23:21:27.236
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.237
+Unexpected IOException with stream: d
+
+# Created at 2023-04-14T23:21:27.237
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.238
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.238
+Unexpected IOException with stream: v
+
+# Created at 2023-04-14T23:21:27.239
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.239
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.239
+Unexpected IOException with stream: .
+
+# Created at 2023-04-14T23:21:27.240
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.240
+Unexpected IOException with stream: h
+
+# Created at 2023-04-14T23:21:27.241
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.242
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.242
+Unexpected IOException with stream: m
+
+# Created at 2023-04-14T23:21:27.243
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.243
+Unexpected IOException with stream: u
+
+# Created at 2023-04-14T23:21:27.244
+Unexpected IOException with stream: m
+
+# Created at 2023-04-14T23:21:27.245
+Unexpected IOException with stream: .
+
+# Created at 2023-04-14T23:21:27.245
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.245
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.246
+Unexpected IOException with stream: g
+
+# Created at 2023-04-14T23:21:27.248
+Unexpected IOException with stream: /
+
+# Created at 2023-04-14T23:21:27.249
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.250
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.250
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.251
+Unexpected IOException with stream: u
+
+# Created at 2023-04-14T23:21:27.252
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.252
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.253
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.254
+Unexpected IOException with stream: y
+
+# Created at 2023-04-14T23:21:27.255
+Unexpected IOException with stream: -
+
+# Created at 2023-04-14T23:21:27.255
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.256
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.256
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.257
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.257
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.258
+Unexpected IOException with stream: d
+
+# Created at 2023-04-14T23:21:27.259
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.259
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.260
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.261
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.263
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.264
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.265
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.266
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.267
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.267
+Unexpected IOException with stream: f
+
+# Created at 2023-04-14T23:21:27.267
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.268
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.269
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.270
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.270
+Unexpected IOException with stream: u
+
+# Created at 2023-04-14T23:21:27.272
+Unexpected IOException with stream: g
+
+# Created at 2023-04-14T23:21:27.272
+Unexpected IOException with stream: g
+
+# Created at 2023-04-14T23:21:27.273
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.275
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.276
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.277
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.278
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.279
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.280
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.281
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.282
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.283
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.284
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.286
+Unexpected IOException with stream: k
+
+# Created at 2023-04-14T23:21:27.287
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.288
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.289
+Unexpected IOException with stream: p
+
+# Created at 2023-04-14T23:21:27.290
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.290
+Unexpected IOException with stream: n
+
+# Created at 2023-04-14T23:21:27.291
+Unexpected IOException with stream: g
+
+# Created at 2023-04-14T23:21:27.293
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.294
+Unexpected IOException with stream: C
+
+# Created at 2023-04-14T23:21:27.295
+Unexpected IOException with stream: h
+
+# Created at 2023-04-14T23:21:27.296
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.297
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.297
+Unexpected IOException with stream: m
+
+# Created at 2023-04-14T23:21:27.298
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.299
+Unexpected IOException with stream: D
+
+# Created at 2023-04-14T23:21:27.299
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.300
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.300
+Unexpected IOException with stream: v
+
+# Created at 2023-04-14T23:21:27.301
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.302
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.304
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.305
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.307
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.309
+Unexpected IOException with stream: f
+
+# Created at 2023-04-14T23:21:27.310
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.311
+Unexpected IOException with stream: .
+
+# Created at 2023-04-14T23:21:27.313
+Unexpected IOException with stream: 
+
+# Created at 2023-04-14T23:21:27.314
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:27.315
+Unexpected IOException with stream: C
+
+# Created at 2023-04-14T23:21:27.316
+Unexpected IOException with stream: h
+
+# Created at 2023-04-14T23:21:27.317
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.318
+Unexpected IOException with stream: o
+
+# Created at 2023-04-14T23:21:27.319
+Unexpected IOException with stream: m
+
+# Created at 2023-04-14T23:21:27.319
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.319
+Unexpected IOException with stream: D
+
+# Created at 2023-04-14T23:21:27.320
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.320
+Unexpected IOException with stream: i
+
+# Created at 2023-04-14T23:21:27.322
+Unexpected IOException with stream: v
+
+# Created at 2023-04-14T23:21:27.323
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.324
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.325
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.326
+Unexpected IOException with stream: w
+
+# Created at 2023-04-14T23:21:27.327
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.328
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.330
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.333
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.334
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.335
+Unexpected IOException with stream: a
+
+# Created at 2023-04-14T23:21:27.336
+Unexpected IOException with stream: r
+
+# Created at 2023-04-14T23:21:27.336
+Unexpected IOException with stream: t
+
+# Created at 2023-04-14T23:21:27.337
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.338
+Unexpected IOException with stream: d
+
+# Created at 2023-04-14T23:21:27.339
+Unexpected IOException with stream:  
+
+# Created at 2023-04-14T23:21:27.340
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.340
+Unexpected IOException with stream: u
+
+# Created at 2023-04-14T23:21:27.341
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.341
+Unexpected IOException with stream: c
+
+# Created at 2023-04-14T23:21:27.342
+Unexpected IOException with stream: e
+
+# Created at 2023-04-14T23:21:27.344
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.345
+Unexpected IOException with stream: s
+
+# Created at 2023-04-14T23:21:27.346
+Unexpected IOException with stream: f
+
+# Created at 2023-04-14T23:21:27.347
+Unexpected IOException with stream: u
+
+# Created at 2023-04-14T23:21:27.348
+Unexpected IOException with stream: l
+
+# Created at 2023-04-14T23:21:27.348
+Unexpected IOException with stream: l
+
+# Created at 2023-04-14T23:21:27.354
+Unexpected IOException with stream: y
+
+# Created at 2023-04-14T23:21:27.358
+Unexpected IOException with stream: .
+
+# Created at 2023-04-14T23:21:27.362
+Unexpected IOException with stream: 
+
+# Created at 2023-04-14T23:21:27.364
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:39.080
+Unexpected IOException: 8,1,org.lastfm.project.LastFm,setupDriver(org.lastfm.project.LastFm),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=111.0.5563.149)\000ABuild info: version: '4.8.2'\002C revision: '826dbfc730'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f6d6613caf4ebee1934c132d4e043feb\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 111.0.5563.149\002C chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63...\002C userDataDir: C:\005CUsers\005Cdevam\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53278}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53278/devtoo...\002C se:cdpVersion: 111.0.5563.149\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6d6613caf4ebee1934c132d4e043feb,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=111.0.5563.149)\000ABuild info: version: '4.8.2'\002C revision: '826dbfc730'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f6d6613caf4ebee1934c132d4e043feb\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 111.0.5563.149\002C chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63...\002C userDataDir: C:\005CUsers\005Cdevam\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53278}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53278/devtoo...\002C se:cdpVersion: 111.0.5563.149\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6d6613caf4ebee1934c132d4e043feb,LastFm.setupDriver:38 \00BB NoSuchWindow no such window: target window already clo...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=111.0.5563.149)\000ABuild info: version: '4.8.2'\002C revision: '826dbfc730'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f6d6613caf4ebee1934c132d4e043feb\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 111.0.5563.149\002C chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63...\002C userDataDir: C:\005CUsers\005Cdevam\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53278}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53278/devtoo...\002C se:cdpVersion: 111.0.5563.149\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6d6613caf4ebee1934c132d4e043feb\000A\0009at org.lastfm.project.LastFm.setupDriver(LastFm.java:38)\000A
+
+
+# Created at 2023-04-14T23:21:39.080
+Unexpected IOException: 5,1,org.lastfm.project.LastFm,GmailPageLogin(org.lastfm.project.LastFm),org.lastfm.project.LastFm,null,null
+
+
+# Created at 2023-04-14T23:21:39.081
+Unexpected IOException: 9,1,org.lastfm.project.LastFm,GmailPageLogin(org.lastfm.project.LastFm),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=111.0.5563.149)\000ABuild info: version: '4.8.2'\002C revision: '826dbfc730'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f6d6613caf4ebee1934c132d4e043feb\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 111.0.5563.149\002C chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63...\002C userDataDir: C:\005CUsers\005Cdevam\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53278}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53278/devtoo...\002C se:cdpVersion: 111.0.5563.149\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6d6613caf4ebee1934c132d4e043feb,null
+
+
+# Created at 2023-04-14T23:21:39.082
+Unexpected IOException with stream: FAILED CONFIGURATION: @BeforeClass org.lastfm.project.LastFm.setupDriver("chrome", "https://www.last.fm/")
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.149)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6d6613caf4ebee1934c132d4e043feb, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.149, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\devam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53278}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53278/devtoo..., se:cdpVersion: 111.0.5563.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6d6613caf4ebee1934c132d4e043feb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)
+	at org.lastfm.project.LastFm.setupDriver(LastFm.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+# Created at 2023-04-14T23:21:39.082
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:39.083
+Unexpected IOException with stream: SKIPPED: org.lastfm.project.LastFm.GmailPageLogin
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.149)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6d6613caf4ebee1934c132d4e043feb, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.149, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\devam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53278}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53278/devtoo..., se:cdpVersion: 111.0.5563.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6d6613caf4ebee1934c132d4e043feb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)
+	at org.lastfm.project.LastFm.setupDriver(LastFm.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+# Created at 2023-04-14T23:21:39.083
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:39.084
+Unexpected IOException with stream: 
+===============================================
+    test2
+    Tests run: 1, Failures: 0, Skips: 1
+    Configuration Failures: 1, Skips: 0
+===============================================
+
+
+# Created at 2023-04-14T23:21:39.084
+Unexpected IOException with stream: 
+
+
+# Created at 2023-04-14T23:21:39.411
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

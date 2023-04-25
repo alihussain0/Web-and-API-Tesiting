@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-25T22:12:19 IST" name="All Test Suite" finished-at="2023-04-25T22:14:54 IST" duration-ms="155007">
+    <groups>
+    </groups>
+    <test started-at="2023-04-25T22:12:19 IST" name="test2" finished-at="2023-04-25T22:14:54 IST" duration-ms="155007">
+      <class name="org.lastfm.project.LastFm">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:12:19 IST" name="setUp" finished-at="2023-04-25T22:12:19 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.String)[pri:0, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:12:19 IST" name="setupDriver" finished-at="2023-04-25T22:12:54 IST" duration-ms="34658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.last.fm/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="LastfmFakeLoginTest()[pri:1, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:12:54 IST" name="LastfmFakeLoginTest" finished-at="2023-04-25T22:12:57 IST" duration-ms="3853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastfmFakeLoginTest -->
+        <test-method signature="LastfmLoginTest()[pri:2, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:12:57 IST" name="LastfmLoginTest" finished-at="2023-04-25T22:13:48 IST" duration-ms="50644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastfmLoginTest -->
+        <test-method signature="LastfmLoginTestCheck()[pri:3, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:13:48 IST" name="LastfmLoginTestCheck" finished-at="2023-04-25T22:13:52 IST" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastfmLoginTestCheck -->
+        <test-method signature="LastfmAddPlaylistTest()[pri:4, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:13:52 IST" name="LastfmAddPlaylistTest" finished-at="2023-04-25T22:14:10 IST" duration-ms="18205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastfmAddPlaylistTest -->
+        <test-method signature="LastfmEditDetailsOfPlayList()[pri:5, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:14:10 IST" name="LastfmEditDetailsOfPlayList" finished-at="2023-04-25T22:14:17 IST" duration-ms="6342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastfmEditDetailsOfPlayList -->
+        <test-method signature="AddTrackInPlaylist()[pri:6, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:14:17 IST" name="AddTrackInPlaylist" finished-at="2023-04-25T22:14:37 IST" duration-ms="19874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTrackInPlaylist -->
+        <test-method signature="RemoveSongFromPlaylist()[pri:7, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:14:37 IST" name="RemoveSongFromPlaylist" finished-at="2023-04-25T22:14:48 IST" duration-ms="11332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveSongFromPlaylist -->
+        <test-method signature="DeletePlaylist()[pri:8, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:14:48 IST" name="DeletePlaylist" finished-at="2023-04-25T22:14:53 IST" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePlaylist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.lastfm.project.LastFm@1fa268de]" started-at="2023-04-25T22:14:53 IST" name="tearDown" finished-at="2023-04-25T22:14:54 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.lastfm.project.LastFm -->
+    </test> <!-- test2 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
