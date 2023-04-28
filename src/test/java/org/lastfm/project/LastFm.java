@@ -26,7 +26,7 @@ public class LastFm {
     public void setUp() throws IOException {
         // Loading config.properties file
         prop = new Properties();
-        FileInputStream fis = new FileInputStream("E:/Maven/LastFmTesting/src/main/resources/config.properties");
+        FileInputStream fis = new FileInputStream("C:/Users/hp/OneDrive/Desktop/Last.fm Project/Web-and-API-Tesiting/src/main/resources/config.properties");
         prop.load(fis);
     }
 
